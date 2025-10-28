@@ -72,7 +72,7 @@ This generates attention visualizations showing:
 
 ## Project Structure
 
-```
+```bash
 attention-lens/
 ├── src/                          # Source code
 │   ├── __init__.py               # Package initialization
@@ -94,7 +94,7 @@ attention-lens/
 └── .gitignore                    # Git ignore rules
 ```
 
-## <� Architecture Details
+## Architecture Details
 
 ### Transformer Model
 
@@ -145,7 +145,7 @@ train_model(
 )
 ```
 
-## =� Understanding the Visualizations
+## Understanding the Visualizations
 
 ### Attention Head Plots
 

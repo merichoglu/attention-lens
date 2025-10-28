@@ -56,7 +56,7 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
+# *.log  # Commented out to allow log files to be tracked
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -177,15 +177,12 @@ outputs/checkpoints/
 *.pkl
 *.pickle
 
-# Training logs
-*.log
-
 # Visualization outputs
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
+# *.png    # Commented out to allow visualization files to be tracked
+# *.jpg    # Commented out to allow visualization files to be tracked
+# *.jpeg   # Commented out to allow visualization files to be tracked
+# *.pdf    # Commented out to allow visualization files to be tracked
+# *.svg    # Commented out to allow visualization files to be tracked
 
 # Experiment results
 experiments/
@@ -226,14 +223,14 @@ secrets.py
 core.*
 
 # PyTorch specific
-lightning_logs/
+# lightning_logs/  # Commented out to allow lightning logs to be tracked
 
 # Wandb experiment tracking
 wandb/
 
 # Tensorboard logs
-runs/
-tb_logs/
+# runs/      # Commented out to allow tensorboard logs to be tracked
+# tb_logs/   # Commented out to allow tensorboard logs to be tracked
 
 # CUDA cache
 .nv/
