@@ -1,4 +1,4 @@
-# Attention Lens =
+# Attention Lens
 
 A PyTorch implementation for training transformer models on arithmetic tasks and visualizing their attention patterns. This project helps understand how transformers learn to solve mathematical problems by providing comprehensive attention visualization tools.
 
