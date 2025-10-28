@@ -74,24 +74,24 @@ This generates attention visualizations showing:
 
 ```
 attention-lens/
- src/                          # Source code
-   __init__.py              # Package initialization
-   attention.py             # Attention mechanism implementations
-   transformer.py           # Transformer model architecture
-   utils.py                 # Utility functions and data processing
-   generate_data.py         # Dataset generation script
-   train.py                 # Training pipeline
-   visualize.py             # Attention visualization tools
- data/                        # Generated datasets (created automatically)
-   train.txt
-   val.txt
-   test.txt
- outputs/                     # Training outputs (created automatically)
-   checkpoints/             # Model checkpoints
-   logs/                    # Training logs
-   visualizations/          # Attention plots
- README.md                    # This file
-   .gitignore                   # Git ignore rules
+├── src/                          # Source code
+│   ├── __init__.py               # Package initialization
+│   ├── attention.py              # Attention mechanism implementations
+│   ├── transformer.py            # Transformer model architecture
+│   ├── utils.py                  # Utility functions and data processing
+│   ├── generate_data.py          # Dataset generation script
+│   ├── train.py                  # Training pipeline
+│   └── visualize.py              # Attention visualization tools
+├── data/                         # Generated datasets (created automatically)
+│   ├── train.txt
+│   ├── val.txt
+│   └── test.txt
+├── outputs/                      # Training outputs (created automatically)
+│   ├── checkpoints/              # Model checkpoints
+│   ├── logs/                     # Training logs
+│   └── visualizations/           # Attention plots
+├── README.md                     # This file
+└── .gitignore                    # Git ignore rules
 ```
 
 ## <� Architecture Details

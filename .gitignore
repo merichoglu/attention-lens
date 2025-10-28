@@ -169,8 +169,7 @@ data/
 !data/.gitkeep
 
 # Training outputs
-outputs/
-!outputs/.gitkeep
+outputs/checkpoints/
 
 # Model checkpoints and weights
 *.pt
