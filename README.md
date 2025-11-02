@@ -114,7 +114,7 @@ The model implements a standard transformer encoder architecture:
 - **Comprehensive Logging**: Detailed logs saved to timestamped files
 - **Model Checkpointing**: Automatic saving of best models based on validation loss
 
-## =' Configuration
+## Configuration
 
 ### Dataset Generation
 
